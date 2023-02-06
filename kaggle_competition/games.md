@@ -1,5 +1,13 @@
 # Notes on the data:
 - You have a better chance to survive if you are female and first class
+
+
+# Sources:
+- https://www.kaggle.com/code/anandhuh/titanic-simple-solution-top-12/notebook
+- https://www.kaggle.com/code/startupsci/titanic-data-science-solutions
+- https://www.kaggle.com/code/benteo/titanic-top-10-my-first-competition/notebook
+- https://www.kaggle.com/code/abisheksudarshan/titanic-top-10-solution
+- https://www.kaggle.com/code/zacharywyman/titanic-top-10-beginner-tutorial/notebook
 - 
 
 # Titanic competition
