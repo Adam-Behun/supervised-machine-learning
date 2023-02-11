@@ -37,7 +37,17 @@ After I had a decent understanding of the dataset using visualizations and simpl
 
 # Model Selection
 
-I have decided to use Logistic Regression for this task. 
+I am trying to put the dependent variable into 1 of two classes - true or false (Survived == 1 || 0). This is a problem to try solving with Logistic Regression - binary classification.  
+I have tried different algorithms such as decision tree, or random forest
+
+
+Decision Tree
+
+Random Forest
+
+Logistic Regression
+
+
 
 # Model Training
 
@@ -58,7 +68,6 @@ The accuracy of The Logistic Regression model was 0.8371 and confusion matrix pr
 # Results Interpretation
 
 My best score was achieved using Logistic Regression and my prediction was accurate with an official score 0.78708 which ranks me at 1053 out of 13953 players. In this paper, I will describe my how I achieved this score and what I might try to improve my score further. The score of 78.7% means that I am 78.7% confident that my model can predict the future of who is going to survive and who is not 78.7% of the time. My accuracy score from sklearn.metrics was 84.27%. 
-
 
 # Space for improvement
 
