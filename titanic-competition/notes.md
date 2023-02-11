@@ -41,11 +41,17 @@ I am trying to put the dependent variable into 1 of two classes - true or false 
 I have tried different algorithms such as decision tree, or random forest
 
 
-Decision Tree
+## Decision Tree
 
-Random Forest
+I have tried to use decision tree for the same problem and datasets. My score was 0.77511 which is lower than the one I received using logistic regression. It might have been because the dataset I used only contained numerical values or simply because this algorithm did not perform as well on the given problem. I have not yet tried to change the dataset to be better working on decision-tree algorithm.
 
-Logistic Regression
+## Random Forest
+
+
+
+## Logistic Regression
+
+My highest score, 0.78708, was accomplished using logistic regression. It is  classification problem and also there are only two classes which makes is suitable to try logistic regression. 
 
 
 
@@ -55,11 +61,17 @@ Logistic Regression
 
 # Model Evaluation
 
-The accuracy of The Logistic Regression model was 0.8371 and confusion matrix provided the following resutls: [[96, 14], [15, 53]].
+## The accuracy of The Logistic Regression model was 0.8371 and confusion matrix provided the following results: [[96, 14], [15, 53]].
 - 98 - True Positives: The number of instances correctly classified as positive (Survived = 1).
 - 12 - False Positives: The number of instances that were incorrectly classified as positive (Survived = 1) when in fact they were negative (Survived = 0).
 - 16 - False Negatives: The number of instances that were incorrectly classified as negative (Survived = 0) when in fact they were positive (Survived = 1).
 - 52 - True Negatives: The number of instances correctly classified as negative (Survived = 0).
+
+## The accuracy of The Decision Tree model was 0.8483 and confusion matrix provided the following results: [[98, 12], [15, 53]].
+
+## The accuracy of The Random Forest model was  and confusion matrix provided the following results: .
+
+
 
 # Preparing the test dataset
 
