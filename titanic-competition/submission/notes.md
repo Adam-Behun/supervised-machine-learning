@@ -47,13 +47,13 @@ I have tried to use decision tree for the same problem and datasets. My score wa
 
 ## Random Forest
 
+When implementing Random Forest I did a couple chagnes to my dataset. This changes included
 
+I spent the most time on random forest implementation and I think that the data preparation was really thorough and helped me achieve a score of
 
 ## Logistic Regression
 
-My highest score, 0.78708, was accomplished using logistic regression. It is  classification problem and also there are only two classes which makes is suitable to try logistic regression. 
-
-
+My highest score using logistic regression was 0.78708. It is  classification problem and also there are only two classes which makes is suitable to try logistic regression (binary classification).
 
 # Model Training
 
