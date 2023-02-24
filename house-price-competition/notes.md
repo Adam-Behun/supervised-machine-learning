@@ -13,3 +13,8 @@ Use feature buddy to see which variables are impacting the house prices the most
 - try deleting variables and see changes in score
 - try hyperparameters
 - download the predicted dataset
+
+
+1. Check the N/A and replace it with none or something that is not a keyword in R
+
+2. R expects column headers to be letters - put letters in front of the column names
