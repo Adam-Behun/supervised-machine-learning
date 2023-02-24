@@ -1,5 +1,6 @@
 # Support Vector Machine
 
+just a test
 
 # Support Vector Machine
 - comes from classification
