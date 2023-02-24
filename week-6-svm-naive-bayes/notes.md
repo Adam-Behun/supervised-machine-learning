@@ -1,6 +1,6 @@
 # Support Vector Machine
 
-just a test
+How do models handle missing values?
 
 # Support Vector Machine
 - comes from classification
