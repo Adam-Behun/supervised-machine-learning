@@ -18,3 +18,5 @@ Use feature buddy to see which variables are impacting the house prices the most
 1. Check the N/A and replace it with none or something that is not a keyword in R
 
 2. R expects column headers to be letters - put letters in front of the column names
+
+Feature buddy use xgboost as well
