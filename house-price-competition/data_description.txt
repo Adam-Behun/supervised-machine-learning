@@ -1,4 +1,4 @@
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+MSSubClass: Identifies the type of dwelling involved in the sale.
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -27,7 +27,7 @@ MSZoning: Identifies the general zoning classification of the sale.
        RL	Residential Low Density
        RP	Residential Low Density Park 
        RM	Residential Medium Density
-	
+
 LotFrontage: Linear feet of street connected to property
 
 LotArea: Lot size in square feet

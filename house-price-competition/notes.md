@@ -20,3 +20,14 @@ Use feature buddy to see which variables are impacting the house prices the most
 2. R expects column headers to be letters - put letters in front of the column names
 
 Feature buddy use xgboost as well
+
+Project:
+
+## Task 1 - Implement the solution using python first:
+
+1. Follow this approach for the score of 0.13979 (https://www.kaggle.com/code/marweni/house-prices-complete-solution-with-guidance/notebook)
+2. This approach gets the score of 0.11720 (https://www.kaggle.com/code/jesucristo/1-house-prices-solution-top-1/output)
+
+## Task 2 - Understand it
+
+## Task 3 - Implement it using R

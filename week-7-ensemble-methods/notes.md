@@ -14,7 +14,7 @@ XG Boost is faster than forest
 - random forest is a bagging technique 
     - 500 independent decision trees consolidated into 1 prediction using a random forest
 
-## Boosting
+## Boosting ensemble method
 - sequential
 - the trees are constantly improving, the growth is not independent, they improve on each other, it evolved based on the past
 - they have decision tree at the foundation level
