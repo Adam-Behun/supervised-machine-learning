@@ -31,3 +31,5 @@ Project:
 ## Task 2 - Understand it
 
 ## Task 3 - Implement it using R
+
+Use the last assignment as a template
