@@ -1,5 +1,7 @@
 # Engineering problem
-
+Titanic was a binary classification problem
+House prices was a regression problem
+Image recognition is non-binary classification problem
 # Identify a hand-written note
 - 28*28 independent variables = 728 cells and we are checking whether a cell has ink or not
 - binary
