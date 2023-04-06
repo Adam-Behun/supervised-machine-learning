@@ -1,16 +1,14 @@
-# Week 1
-
-## Analytics
+# Analytics
 - Descriptive
 - Diganostic
 - Predictive
 - Prescriptive
 
-## 1. What is ML and how it works in simple terms  
+# What is ML and how it works in simple terms  
 
 Moving into the predictive analytics part, what made me understand ML a little better was the explanation that a visualization is a way for people to find patterns in data (our brains are really good at that). However, if we want the computer to find patterns in the data, visualization is not the best way to go because for a computer it is all just zeros and ones. What we need to do is fit an ML model to our data based on the data specifics and the task at hand. Then, we feed the model with clean, preprocessed data (a training dataset). Once we are satisfied with the model's performance, we can move on to testing.   
 
-## 2. Classical Machine Learning and its three main types
+# Classical Machine Learning and its three main types
 
 NOTE: We will not be learning about neural nets and deep learning in this class as they are mostly used for unstructured data and we usually work with structured data in business metrics. 
 
@@ -21,11 +19,11 @@ NOTE: We will not be learning about neural nets and deep learning in this class 
 - Reinforcement learning
     - This type of ML uses rewards and penalties to navigate the ML in its environment. It is similar to playing a game where we learn by ourselves what to do and what not to do based on our results (rewarded or punished). 
 
-## 3. Regression vs Classification problems 
+# Regression vs Classification problems 
 
 Regression problems in ML are trying to predict a numerical value while classification problems are trying to predict a categorical value. Continuous variables are numeric variables (weight, hight, and anything measured on a scale). Categorical variables are discrete variables that can take one of a limited number of variables. We can trnasform categorical values into numericalif we want to use regression.
 
-## 4. Process of predicting someone's weight
+# Process of predicting someone's weight
 
  
 - `
@@ -49,11 +47,11 @@ Regression problems in ML are trying to predict a numerical value while classifi
     Evaluate the results by comparing human predictions with the machine predictions. This gives us an idea on how accurate our model is. 
 `
 
-## 5. Training and testing datasets for regression problems. 
+# Training and testing datasets for regression problems
 
 The differences between a training and a testing dataset is that the training dataset has values for the dependent variable as well. We (or the machine) can calculate the correlation between dependent and independent variables formulating an equation which can then predict future values for the dependent variable. 
 
-## 6. Extra notes
+# Extra notes
 
 ### R-Squared
 - Correlation coefficient gives me how close the DV is to PDV. We just convert it to a percentage --> R-squared --> how accurate my model is

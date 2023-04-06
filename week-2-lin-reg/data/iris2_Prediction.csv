@@ -1,6 +1,0 @@
-Sepal.Length,Sepal.Width,Petal.Length,Petal.Width,Species,predictedLR
-6.7,3,5.2,NA,virginica,1.917962272
-6.3,2.5,5,NA,virginica,1.787150555
-6.5,3,5.2,NA,virginica,1.939007563
-6.2,3.4,5.4,NA,virginica,2.119276492
-5.9,3,5.1,NA,virginica,1.976195551
