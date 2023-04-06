@@ -1,32 +1,8 @@
-# How accurate is my model - regressions and classifications
+# Supervised Machine Learning Models
+Supervised ML algorithms are designed to learn from labeled data and use that knowledge to make predictions or classify new data points. In the case of classification problems, the algorithm learns to assign input data to one of several pre-defined classes. For regression problems, the algorithm learns to predict a continuous numerical value. 
 
-Problem with accuracy was that it was positively biased and we fixed that with the validation dataset last week.
-Problem is that the accuracy is not valid examiner of how accurate the algorithm actually is
-    the problem was the situation with imbalanced classes
-    how do we know whether the model is accurate
+# Accuracy of regression models
+In previous weeks, we have used R-squared (R-squared) as the metric for the accuracy of our regression models. However, there are other ways that we can understand the accuracy of our regression algorithms and these techniques include Mean Squared Error (L2 Loss), Mean Absolute Error (L1 Loss). To determine the accuracy of my regression model, it is a good idea to collect those metrics and understand their differences as they can give us valuable feedback about our model.
 
-Performance measures:   
-
-## Classification metrics
-- Confusion matrix
-  - Accuracy calculated from confusion matrix does not work well with imbalanced data
-  - Precision - alternative way to see the performance of our model (first row in the confusion matrix)
-    - Less susceptible to imbalance dataset
-  - Recall or sensitivity - another way to look at performance (first column in the confusion matrix)
-  - Specificity
-  - F1 Score - combine precision and recall using harmonic mean (values from 0 to 1)
-
-When to use which performance measure?
-- Precision is about being precise - I might not to do all the tasks, but my precision is 100% because when I say 1, it is 1 for 100%
-- Recall focuses on the correct predictions
-
-Precision and recall have specific purposes and both are used 
-
-Anytime working with ml, choose the correct performance measure. Is my dataset balanced or not?
-
-F1 Score as harmomnic mean of precision and recall
-
-## Regression metrics
-- R-squared
-- Mean squared error = L2 Loss
-- Mean absolute error = L1 Loss
+## Accuracy of classification models
+As with regression metrics, there are several strategies to determine the accuracy of classification models including Accuracy, Precision, Recall, Specificity, and F1 Score. All of these accuracy metrics use confusion metrics which is a 2x2 table that summarizes the predicted and actual class labels for a set of instances in a classification problem. Accuracy, Precision, Recall, Specificity are all different ways of how to use confusion matrix. For example, accuracy is computed as (number of correct predictions) / (total number of predictions) while precision is computed as (true positives) / (true positives + false positives) and recall is computed as (true positives) / (true positives + false negatives). Probably the best way to determine the accuracy of our classification model is to compute the F1 score which is the harmonic mean of precision and recall and provides a balanced measure of both of these metrics computed from the confusion metric. There are also different reasons why we would want to use precision or recall as they are used for different purposes. One final note would be to understand the distribution of our dataset – is our data balanced or not impacts which accuracy measure we should use to determine the accuracy of our supervised machine learning classification model. 
