@@ -1,0 +1,1 @@
+In this week's reflection I just want to remember that this was the first time that I was able to utilize Principal Component Analysis, and fit mulitple supervised machine learning models and get a relatively high score in Kaggle on the Digit Recognizer Competition. All of this was done in python as well as in R and I also understand why I took the steps I took. 
