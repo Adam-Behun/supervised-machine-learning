@@ -20,6 +20,6 @@ Match variable with the dimension.
 
 Numerical and categorical variables
 
-Input the dataset, get the best visualization. 
+Input the dataset, get the best visualization ideas. 
 
 https://www.statsbuddy.net/driverless-data-visualization.html
