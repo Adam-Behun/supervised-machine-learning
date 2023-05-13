@@ -1,5 +1,5 @@
 # Linear regression ML
-- In regression problems we can only use numerical variables (if we have any categorical values, we have to convert them to numerical - preprocessing). Independent variables are the ones that have influence on our dependent variable - dependent variable is the one we are trying to predict. We can have as many independent variables as we like (there probably is an upper level, I am not sure). 
+- In regression problems we can only use numerical variables (if we have any categorical values, we have to convert them to numerical - preprocessing). Independent variables are the ones that have influence on our dependent variable - dependent variable is the one we are trying to predict. We can have as many independent variables as we like (later topic).
 
 - Another advantage of using ML to find patterns in data and not visualizations is that visualizations cannot take as many variables as ML models can. We can let the computer understand the impact of more than 3 variables.
 

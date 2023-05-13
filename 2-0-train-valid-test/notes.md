@@ -5,7 +5,7 @@ The general idea behind ensemble methods is pretty strightforward - instead of r
 Once we receive the predictions from mutliple base learners, we can combine their predictions and have one result by using math opeartions such as max voting, avg, weighted avg(decide what weights to put on different results based on their individual accuracies)
 
 # Advanced methods
-Howver, there is  way to improve upon the simple ensemble methods and these are the advanced ensemble methods from which we learned about stacking, blending, bagging, and boosting. 
+However, there is  way to improve upon the simple ensemble methods and these are the advanced ensemble methods from which we learned about stacking, blending, bagging, and boosting. 
 
 # Training, validation, and testing dataset
 Here we have learned that we might want to split our dataset even further to be in 3 parts, namely these would be training, validation, and testing. The ration between training and validation is usually 60:40 or 50:50. However, another school of thought suggests that validation part of the dataset is not needed meaning that we would still have only two parts: training and testing - this is probably to be tested on our individual projects. 

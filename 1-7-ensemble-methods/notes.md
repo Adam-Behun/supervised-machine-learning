@@ -1,52 +1,32 @@
-# Ensemble Methods
-- understand decision trees and random forests
-- relativelly slow
-- use random-forest and gradient boosting for feature selection
+# Ensemble methods
+I have talked about ensemble methods in ML before when we learned about random forest. Ensemble methods in general are helping us improve the accuracy of our predictions by combining the predictions of multiple models. For example, the collection of multiple decision trees is the ensemble method of random forest which tends to perform better than the individual decision tree by itself. We need to understand the tradeoff for running these more complex algorithm and that is the run-time - it tends to be higher. This week we have learned about some other ensemble methods which can be divided into two groups, bagging and boosting. 
 
-Random forest used to be the best from supervised ML models for structured data
-Neural network used to be the best for unstructured dara
-Extreme Gradient Boosting is an algorithm that can challenge random forest
-XG Boost is faster than forest
+# Bagging ensemble methods
+Bagging ensemble methods esentially involve building multiple models on different subsets of the training dataset after which their predictions get combined into 1 prediction. Random forest is a bagging technique as it creates an N amount of independent decision trees which get consolidated into a singular prediction which is our final result. 
 
-## Bagging ensemble method
-- parallel
-- they work independently and then we consolidate
-- random forest is a bagging technique 
-    - 500 independent decision trees consolidated into 1 prediction using a random forest
+# Boosting ensemble methods
+Boosting ensemble methods on the other hand work by iterations, they improve based on the results from the previous prediction. They start with 1 decision tree and after seeing its coefficient these methods make adjustments to the data as well as to the tree. From the boosting ensemble methods in machine learning we have learned about Adaptive Boosting - based on decision trees, Gradient Boosting - improved Adaboost algorithm, and Extreme Gradient Boosting - improves the speed of gradient boosting algorithm. Extreme Gradient Boosting is a poweful algorithm which improved the Gradient Boosting using parallel processing, tree pruning, caching and it also handles missing data in a slightly different manner. 
 
-## Boosting ensemble method
-- sequential
-- the trees are constantly improving, the growth is not independent, they improve on each other, it evolved based on the past
-- they have decision tree at the foundation level
-- start with 1 decision tree and after looking at the coefficient tree make adjustments to the data and the tree, then iterate
+# Business impact
+Ensemble methods help us to improve the accuracy of predictions especially in noisy and complex datasets which are common in businesses. The usecases for these machine learning algorithms are similar to the other supervised learning techniques but the thing to remember is that they tend to be slower as they combine predictions from multiple models which is not really ideal if we must have the result as soon as possible. 
 
-### Adaptive Boosting
-- Adaboost is an ensemble method based on decision trees
-- model 1 is created (iteration 1)
-- increase the weights of missclassified rows and duplicate them in the training data
-    - focus more on the missclassified rows
-        - force the algorithm to play with the weights of the rows that have been missclassified
-        - iterate this process, 500 times more or less to get the super-imposition of the rules
+# Supervised Learning Algorithms Recap:
+- regressions, classifications, or both
 
-### Gradient Boosting
-- improvement on Adaboost which was the first boosting algorithm
-- gradient descent algorithm - math optimization algorithm
-- try this with the housing-prices competition
+- Linear Regression
+- Logistic Regression
+- Linear Discriminant Analysis
+- Decision Tree
+- Random Forest
+- k-Nearest Neighbor
+- Support Vector Machine
+- Naive Bayes
+- Neural Networks
 
-### Extreme Gradient Boosting
-- improved gradient boosting - it's faster
-- using parallel processing, tree pruning, caching, handle missing data
-- improved implementation, math is similar to the gradient boosting
-- compromise between the speed and the accuracy
-
-# Bias and Variance 
-https://www.youtube.com/watch?v=EuBBz3bI-aA
-
-# Ridge Regression
-https://www.youtube.com/watch?v=Q81RR3yKn30
-
-# Lasso Regression
-https://www.youtube.com/watch?v=NGf0voTMlcs
-
-# Elastic Net Regression
-https://www.youtube.com/watch?v=1dKRdX9bfIo
+# ML Basics:
+- We want to make predictions, lots of automatic predictions about something
+  - We know what success looks like, we understand what we want
+  - We have many examples of what success looks like
+  - This is used mostly where it is easier to give examples of inputs and outputs.
+  - Rather than giving the function we supply inputs and outputs and let the machine find the function
+    - For that, the data we have is key, the algorithms already exist and work, we just have to fit the data and understand the task
