@@ -23,6 +23,8 @@ This badge is awarded to individuals who have shown exceptional ability in creat
 **Summary**: Classify handwritten digits using Support Vector Machines, Principal Component Analysis, Convolutional Neural Networks, and more.
 - [MNIST Digit Recognizer](mnist-competition/algorithms/pca_with_models.ipynb)
 
+## Techniques explored 
+
 ### Linear Regression
 **Concept**: Model the relationship between a scalar response and explanatory variables.
 
