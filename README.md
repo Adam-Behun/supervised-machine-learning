@@ -17,11 +17,11 @@ This badge is awarded to individuals who have shown exceptional ability in creat
 
 ### House Prices: Advanced Regression Techniques
 **Summary**: Predict sales prices and practice feature engineering.
-- [House Price Prediction Analysis](house-price-competition\algorithms\top-solution.ipynb)
+- [House Price Prediction Analysis](house-price-competition/algorithms/top-solution.ipynb)
 
 ### MNIST Digit Recognizer
 **Summary**: Classify handwritten digits using Support Vector Machines, Principal Component Analysis, Convolutional Neural Networks, and more.
-- [MNIST Digit Recognizer](mnist-competition\algorithms\pca_with_models.ipynb)
+- [MNIST Digit Recognizer](mnist-competition/algorithms/pca_with_models.ipynb)
 
 ### Linear Regression
 **Concept**: Model the relationship between a scalar response and explanatory variables.
