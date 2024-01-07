@@ -35,9 +35,9 @@ This badge is awarded to individuals who have shown exceptional ability in creat
 - [Titanic Survival Exploration](link_to_colab_notebook)
 
 ### House Prices: Advanced Regression Techniques
-**Summary**: Predict sales prices and practice feature engineering, RFs, and gradient boosting.
+**Summary**: Predict sales prices and practice feature engineering.
 - [House Price Prediction Analysis](link_to_colab_notebook)
 
 ### MNIST Digit Recognizer
-**Summary**: Classify handwritten digits using SVM, PCA, CNNs, and more.
+**Summary**: Classify handwritten digits using Support Vector Machines, Principal Component Analysis, Convolutional Neural Networks, and more.
 - [MNIST Digit Recognizer](link_to_colab_notebook)
