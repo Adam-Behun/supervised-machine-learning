@@ -4,8 +4,10 @@ This repository is a display of my capabilities in data analytics, featuring con
 
 ## Recognitions
 
-### Data Science Machine Learning Badge
-![Data Science Machine Learning Badge](visuals/badge.png)
+<h3 align="center">Chaifetz School of Business Data Science Machine Learning Badge</h3>
+<p align="center">
+  <img src="visuals/badge.png" alt="Data Science Machine Learning Badge" width="200"/>
+</p>
 
 **About the Badge**: This badge is awarded to individuals who have shown exceptional ability in creating supervised machine learning models. The recipient of this badge is proficient in applying techniques for feature construction, feature extraction, feature selection, and hyperparameter tuning to enhance model performance. The badge also acknowledges the successful participation in one classification and one regression competition, illustrating a balanced skill set in both domains.
 
